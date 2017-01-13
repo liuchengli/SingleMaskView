@@ -3,7 +3,7 @@
 //  SingleMask
 //
 //  Created by 刘成利 on 2016/6/13.
-//  Copyright © 2017年 刘成利. All rights reserved.
+//  Copyright © 2016年 刘成利. All rights reserved.
 //
 
 #import "ViewController.h"
