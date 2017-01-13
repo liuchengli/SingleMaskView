@@ -119,9 +119,13 @@
         case HomePage:
         {
            
-           
+           // 添加第一个蒙版透明区
             [maskView addTransparentRect:CGRectMake(view.width-180, 205, 170, 50) withRadius:10];
             [maskView addImage:[UIImage imageNamed:@"首页引导"] withFrame:CGRectMake(view.width-220, 270, 210, 83)];
+            
+            // 添加第二个蒙版透明区
+            [maskView addTransparentRect:CGRectMake(view.width/10, 400, view.width*4/5, 145) withRadius:10];
+            [maskView addImage:[UIImage imageNamed:@"分时引导"] withFrame:CGRectMake((view.width-103)/2, 560, 267 , 83)];
         }
             break;
        
