@@ -40,7 +40,7 @@
             
             }else{
                 
-                // 测试用，让蒙版再次显示，任务完成后注释掉下面代码
+                // 测试用，让蒙版再次显示，开发完工后注释掉下面代码
                 [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:HomePageKey];
                 return;
             
@@ -63,7 +63,7 @@
                 [[NSUserDefaults standardUserDefaults] setObject:@"haveShown" forKey:RealIncomeKey];
                 
             }else{
-                // 测试用，让蒙版再次显示，任务完成后注释掉下面代码
+                // 测试用，让蒙版再次显示，开发完工后注释掉下面代码
                 [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:RealIncomeKey];
                 return;
                 
@@ -85,7 +85,7 @@
                 
             }else{
                 
-                // 测试用，让蒙版再次显示，任务完成后注释掉下面代码
+                // 测试用，让蒙版再次显示，开发完工后注释掉下面代码
                 [[NSUserDefaults standardUserDefaults] setObject:@"" forKey:StockTimesharingKey];
                 return;
                 
